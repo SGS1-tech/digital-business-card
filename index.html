@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
-      --primary: #1b6fd1; /* Adept-style blue, change if you like */
+      --primary: #1b6fd1;
     }
     * { box-sizing: border-box; }
     body {
@@ -18,10 +18,10 @@
     .card {
       max-width: 480px;
       margin: 0 auto;
-      background: #fff;
+      background: #ffffff;
       border-radius: 16px;
       padding: 24px 24px 28px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
     }
     h1 {
       margin: 0 0 4px;
@@ -29,13 +29,18 @@
     }
     .role {
       color: #555;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
       font-size: 0.98rem;
     }
     .company {
       font-weight: 600;
       margin-bottom: 12px;
       color: var(--primary);
+    }
+    .tagline {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 16px;
     }
     .field {
       margin: 4px 0;
@@ -75,15 +80,45 @@
     <h1>Anh Nguyen</h1>
     <div class="role">Founder &amp; CEO</div>
     <div class="company">Adept Link Solutions Inc.</div>
+    <div class="tagline">
+      B2B multivendor e-commerce &amp; AI supply-chain tools for agri-food SMEs across Canada &amp; Asia.
+    </div>
 
-    <div class="field">📧 <a href="mailto:anh.nguyen@adept-link.com">anh.nguyen@adept-link.com</a></div>
-    <div class="field">📞 <a href="tel:+84 979285 528">+84 979 285 528</a></div>
-    <div class="field">🌐 <a href="https://www.adept-link.com" target="_blank">www.adept-link.com</a></div>
-    <div class="field">🔗 <a href="https://www.linkedin.com/in/https:/anh-nguyen-64aaa128/" target="_blank">LinkedIn</a></div>
+    <!-- EDIT these fields with your real details -->
+    <div class="field">
+      📧 <a href="mailto:anh.nguyen@adept-link.com">anh.nguyen@adept-link.com</a>
+    </div>
+
+    <div class="field">
+      📞 <a href="tel:+84XXXXXXXXX">+84 XXX XXX XXX</a>
+      <!-- replace +84XXXXXXXXX and the visible text with your real phone -->
+    </div>
+
+    <div class="field">
+      🌐 <a href="https://www.adept-link.com"
+            target="_blank"
+            rel="noopener noreferrer">
+        www.adept-link.com
+      </a>
+    </div>
+
+    <div class="field">
+      🔗 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG"
+            target="_blank"
+            rel="noopener noreferrer">
+        LinkedIn
+      </a>
+      <!-- example: https://www.linkedin.com/in/anh-nguyen-123456/ -->
+    </div>
+    <!-- END editable fields -->
 
     <a class="btn" href="my-card.vcf" download>Save contact (vCard)</a>
-    <div class="note">Tip: On iOS/Android, tap the button to add contact directly.</div>
+    <div class="note">
+      On iOS/Android, tap “Save contact” to add my details directly to your address book.
+    </div>
   </div>
 </body>
 </html>
+
+
 
